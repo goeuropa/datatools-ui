@@ -1,11 +1,12 @@
 # syntax=docker/dockerfile:1
 FROM node:14
 WORKDIR /datatools-build
-COPY package.json yarn.lock ./
+RUN cd /datatools-build
+COPY package.json yarn.lock /datatools-build/
 RUN yarn
-COPY . ./
-RUN yarn build
+COPY . /datatools-build/ 
+RUN yarn run build --minify
 
 FROM nginx
-COPY --from=node /datatools-build/dist /var/share/nginx/html/
+COPY --from=0 /datatools-build/dist /usr/share/nginx/html/dist/
 EXPOSE 80

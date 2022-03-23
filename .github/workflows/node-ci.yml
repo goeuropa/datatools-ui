@@ -56,6 +56,9 @@ jobs:
         run: yarn run build -- --minify
       - name: Build docs
         run: mkdocs build
+      # Disabled while we wait for docker account
+      # - name: Build and publish docker image
+      #   run: docker buildx build . --tag ibi-group/datatools-ui --platform linux/arm64,linux/amd64 --push
       - name: Start MongoDB
         if: env.SHOULD_RUN_E2E == 'true'
         uses: supercharge/mongodb-github-action@1.3.0
