@@ -1,0 +1,22 @@
+version: '3.8'
+services:
+  datatools-e2e-tests:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile e2e
+    env_file: 
+      - /Users/miles.grant/git/configurations/datatools/localhost/frontend/e2e-env
+    depends_on:
+      - mongo
+      - postgres
+  mongo:
+    image: mongo
+    restart: always
+  postgres:
+    environment:
+      POSTGRES_HOST_AUTH_METHOD: trust
+      POSTGRES_USER: root
+      POSTGRES_PASS: lol
+      POSTGRES_DB: dmtest
+    image: postgres
+    restart: always

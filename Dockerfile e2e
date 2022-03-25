@@ -1,0 +1,19 @@
+# syntax=docker/dockerfile:1
+FROM timbru31/java-node:8-14
+WORKDIR /datatools
+
+RUN mkdir -p /datatools/e2e-test-results/
+
+RUN apt-get clean
+RUN apt-get update
+RUN apt-get install -y git
+RUN yarn global add https://github.com/ibi-group/otp-runner.git
+
+COPY package.json yarn.lock /datatools/
+RUN yarn
+COPY . /datatools/
+
+ENV SHOULD_RUN_E2E=true
+ENV CI=true
+CMD yarn test-end-to-end
+
