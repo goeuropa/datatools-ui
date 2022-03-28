@@ -1,19 +1,24 @@
 # syntax=docker/dockerfile:1
-FROM timbru31/java-node:8-14
-WORKDIR /datatools
+FROM --platform=linux/amd64 timbru31/java-node:8-12
+WORKDIR /datatools-ui
 
-RUN mkdir -p /datatools/e2e-test-results/
+RUN mkdir -p /datatools-ui/e2e-test-results/
+RUN touch /datatools-ui/e2e-test-results/client-dev-server.pid
+RUN touch /datatools-ui/e2e-test-results/datatools-server.pid
+RUN touch /datatools-ui/e2e-test-results/otp.pid
 
 RUN apt-get clean
 RUN apt-get update
 RUN apt-get install -y git
 RUN yarn global add https://github.com/ibi-group/otp-runner.git
+RUN yarn global add mastarm
 
-COPY package.json yarn.lock /datatools/
+COPY package.json yarn.lock /datatools-ui/
 RUN yarn
-COPY . /datatools/
+COPY . /datatools-ui/
 
 ENV SHOULD_RUN_E2E=true
 ENV CI=true
+ENV TEST_FOLDER_PATH=/datatools-ui/e2e-test-results
 CMD yarn test-end-to-end
 
