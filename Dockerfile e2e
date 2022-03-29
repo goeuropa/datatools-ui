@@ -22,5 +22,7 @@ COPY . /datatools-ui/
 ENV SHOULD_RUN_E2E=true
 ENV CI=true
 ENV TEST_FOLDER_PATH=/datatools-ui/e2e-test-results
+# Does not work on M1 mac:
+# https://github.com/puppeteer/puppeteer/issues/7916
 CMD yarn test-end-to-end
 
