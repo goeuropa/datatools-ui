@@ -2,19 +2,19 @@ _id: pl
 _name: Polski
 components:
   Actions:
-    error: Error making %method% request to %url%
-    errorGraphQL: Error fetching GTFS entities via GraphQL
-    errorWithStatus: Error (%status%) making %method% request to %url%
-    networkError: Network error (%status%)!\n\n(%method% request on %url%)
-    noFile: No file to upload!
+    error: Błąd podczas wykonywania żądania %method% do %url%
+    errorGraphQL: Błąd podczas pobierania jednostek GTFS przez GraphQL
+    errorWithStatus: Błąd (%status%) podczas wykonywania żądania %method% do %url%
+    networkError: Błąd sieci (%status%)!\n\n(żądanie %method% na %url%)
+    noFile: Brak pliku do przesłania!
   AdminPage:
-    applicationLogs: Application logs
-    backToDashboard: Back to dashboard
-    deploymentServers: Deployment servers
-    noAccess: You do not have sufficient user privileges to access this area.
-    organizations: Organizations
-    title: Administration
-    userManagement: User Management
+    applicationLogs: Dzienniki aplikacji
+    backToDashboard: Powrót do pulpitu nawigacyjnego
+    deploymentServers: Serwery wdrażania
+    noAccess: Nie masz wystarczających uprawnień użytkownika, aby uzyskać dostęp do tego obszaru.
+    organizations: Organizacje
+    title: Administracja
+    userManagement: Zarządzanie użytkownikami
   ApplicationStatusView:
     actions: Akcje
     columns:
@@ -27,9 +27,9 @@ components:
     feed:
       filterByLabels: Filtruj rozkłady po etykietach
       isPublic: Jest publiczny
-      lastFetched: Last Time Data Fetched from Feed URL
+      lastFetched: Dane o ostatnim pobraniu z adresu URL kanału
       lastUpdated: Ostatnio zaktualizowane
-    lastApiRequests: Last API requests by User
+    lastApiRequests: Ostatnie żądania API przez użytkownika
     lastUpdatedAt: ostatnio aktualizowane o
     latestValidation:
       endDate: 'Najnowsza wersja: Data końcowa'
@@ -46,8 +46,8 @@ components:
     sortBy: Sortuj po
     unauthenticated: (unauthenticated)
     url: Adres URL rozkładu
-    userLogs: User Authentication Logs
-    viewUserLogs: View user logs on Auth0.com
+    userLogs: Dzienniki uwierzytelniania użytkownika
+    viewUserLogs: Zobacz dzienniki użytkowników na Auth0.com
   Brand:
     dataTools: Data Tools
   Breadcrumbs:
