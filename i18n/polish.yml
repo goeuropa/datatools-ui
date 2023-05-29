@@ -62,7 +62,7 @@ components:
   CreateSnapshotModal:
     cancel: Anuluj
     description: Migawki to zapisywanie punktów, na które możesz powrócić do powrotu
-      do Edytowanie paszy GTFS. Do Auto-Publikuj nowy plik GTFS (i proces jako Nowa
+      do Edytowanie paszy GTFS. Do Auto-Publikuj  nowy plik GTFS (i proces jako Nowa
       wersja pliku danych, stwórz migawkę za pomocą opcji poniżej.
     fields:
       comment:
