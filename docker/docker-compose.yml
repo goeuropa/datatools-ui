@@ -41,7 +41,7 @@ services:
     ports:
       - "4000:4000"
 
-# Tempor!
+
   # datatools-ui:
   #   build:
   #     context: ../
