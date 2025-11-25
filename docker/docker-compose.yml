@@ -41,7 +41,6 @@ services:
     ports:
       - "4000:4000"
 
-
   datatools-ui:
     build:
       context: ../
@@ -65,8 +64,8 @@ services:
       POSTGRES_DB: dmtest
     image: postgres
     restart: always
-    volumes:
-      - dt-postgres:/var/lib/postgresql/data
+    volumes: # Comment this if problems with postgres
+      - dt-postgres:/var/lib/postgresql/data # Comment this if problems with postgres
 volumes:
   dt-postgres:
   dt-mongo:
