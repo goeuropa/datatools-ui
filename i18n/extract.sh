@@ -2,7 +2,6 @@
 
 input_file="polish.yml"
 output_file="polish2.txt"
-
 # Check if the input file exists
 if [ ! -f "$input_file" ]; then
   echo "Input file '$input_file' does not exist."
