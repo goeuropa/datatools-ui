@@ -84,6 +84,7 @@ exports[`lib > manager > ActiveProjectViewer should render with newly created pr
             "updaters": null,
             "walkSpeed": null,
           },
+          "sharedStopsConfig": null,
           "useCustomOsmBounds": false,
           "user": null,
         }
@@ -171,7 +172,9 @@ exports[`lib > manager > ActiveProjectViewer should render with newly created pr
         title="mock-project"
       >
         <div>
-          <Title />
+          <Title
+            subTitle="mock-project"
+          />
           <Connect(StatusMessage)>
             <StatusMessage
               dispatch={[Function]}
@@ -2035,6 +2038,7 @@ exports[`lib > manager > ActiveProjectViewer should render with newly created pr
                                                             "updaters": null,
                                                             "walkSpeed": null,
                                                           },
+                                                          "sharedStopsConfig": null,
                                                           "useCustomOsmBounds": false,
                                                           "user": null,
                                                         }
@@ -2084,6 +2088,7 @@ exports[`lib > manager > ActiveProjectViewer should render with newly created pr
                                                               "updaters": null,
                                                               "walkSpeed": null,
                                                             },
+                                                            "sharedStopsConfig": null,
                                                             "useCustomOsmBounds": false,
                                                             "user": null,
                                                           }
@@ -2223,6 +2228,7 @@ exports[`lib > manager > ActiveProjectViewer should render with newly created pr
                                                                               "updaters": null,
                                                                               "walkSpeed": null,
                                                                             },
+                                                                            "sharedStopsConfig": null,
                                                                             "useCustomOsmBounds": false,
                                                                             "user": null,
                                                                           }
@@ -2294,6 +2300,7 @@ exports[`lib > manager > ActiveProjectViewer should render with newly created pr
                                                                                 "updaters": null,
                                                                                 "walkSpeed": null,
                                                                               },
+                                                                              "sharedStopsConfig": null,
                                                                               "useCustomOsmBounds": false,
                                                                               "user": null,
                                                                             }
@@ -4175,7 +4182,7 @@ exports[`lib > manager > ActiveProjectViewer should render with newly created pr
                                                           Note:
                                                         </strong>
                                                          
-                                                        Public feeds page can be viewed
+                                                        Public feeds page can be viewed 
                                                         <a
                                                           href="https://s3.amazonaws.com/bucket-name/public/index.html"
                                                           target="_blank"
@@ -4224,6 +4231,7 @@ exports[`lib > manager > ActiveProjectViewer should render with newly created pr
                                                             "updaters": null,
                                                             "walkSpeed": null,
                                                           },
+                                                          "sharedStopsConfig": null,
                                                           "useCustomOsmBounds": false,
                                                           "user": null,
                                                         }
@@ -4350,6 +4358,7 @@ exports[`lib > manager > ActiveProjectViewer should render with newly created pr
                                                             "updaters": null,
                                                             "walkSpeed": null,
                                                           },
+                                                          "sharedStopsConfig": null,
                                                           "useCustomOsmBounds": false,
                                                           "user": null,
                                                         }
@@ -4435,6 +4444,7 @@ exports[`lib > manager > ActiveProjectViewer should render with newly created pr
                                                             "updaters": null,
                                                             "walkSpeed": null,
                                                           },
+                                                          "sharedStopsConfig": null,
                                                           "useCustomOsmBounds": false,
                                                           "user": null,
                                                         }

@@ -51,7 +51,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                   "id": "mock-feed-with-version-id",
                   "isPublic": false,
                   "labelIds": Array [],
-                  "lastFetched": 1543389038810,
                   "lastUpdated": 1543389038810,
                   "latestValidation": Object {
                     "agencies": null,
@@ -129,6 +128,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
             "otpVersion": null,
             "peliasCsvFiles": Array [],
             "peliasResetDb": null,
+            "peliasSynonymsBase64": null,
             "peliasUpdate": null,
             "pinnedfeedVersionIds": Array [],
             "projectBounds": Object {
@@ -153,7 +153,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
             "id": "mock-feed-with-version-id",
             "isPublic": false,
             "labelIds": Array [],
-            "lastFetched": 1543389038810,
             "lastUpdated": 1543389038810,
             "latestValidation": Object {
               "agencies": null,
@@ -209,6 +208,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
           "updaters": null,
           "walkSpeed": null,
         },
+        "sharedStopsConfig": null,
         "useCustomOsmBounds": false,
         "user": null,
       }
@@ -226,7 +226,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
             "id": "mock-feed-with-version-id",
             "isPublic": false,
             "labelIds": Array [],
-            "lastFetched": 1543389038810,
             "lastUpdated": 1543389038810,
             "latestValidation": Object {
               "agencies": null,
@@ -275,7 +274,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
             "id": "mock-feed-with-version-id",
             "isPublic": false,
             "labelIds": Array [],
-            "lastFetched": 1543389038810,
             "lastUpdated": 1543389038810,
             "latestValidation": Object {
               "agencies": null,
@@ -353,7 +351,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                     "id": "mock-feed-with-version-id",
                     "isPublic": false,
                     "labelIds": Array [],
-                    "lastFetched": 1543389038810,
                     "lastUpdated": 1543389038810,
                     "latestValidation": Object {
                       "agencies": null,
@@ -431,6 +428,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
               "otpVersion": null,
               "peliasCsvFiles": Array [],
               "peliasResetDb": null,
+              "peliasSynonymsBase64": null,
               "peliasUpdate": null,
               "pinnedfeedVersionIds": Array [],
               "projectBounds": Object {
@@ -455,7 +453,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
               "id": "mock-feed-with-version-id",
               "isPublic": false,
               "labelIds": Array [],
-              "lastFetched": 1543389038810,
               "lastUpdated": 1543389038810,
               "latestValidation": Object {
                 "agencies": null,
@@ -511,6 +508,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
             "updaters": null,
             "walkSpeed": null,
           },
+          "sharedStopsConfig": null,
           "useCustomOsmBounds": false,
           "user": null,
         }
@@ -649,7 +647,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                     "id": "mock-feed-with-version-id",
                                     "isPublic": false,
                                     "labelIds": Array [],
-                                    "lastFetched": 1543389038810,
                                     "lastUpdated": 1543389038810,
                                     "latestValidation": Object {
                                       "agencies": null,
@@ -727,6 +724,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                               "otpVersion": null,
                               "peliasCsvFiles": Array [],
                               "peliasResetDb": null,
+                              "peliasSynonymsBase64": null,
                               "peliasUpdate": null,
                               "pinnedfeedVersionIds": Array [],
                               "projectBounds": Object {
@@ -751,7 +749,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                               "id": "mock-feed-with-version-id",
                               "isPublic": false,
                               "labelIds": Array [],
-                              "lastFetched": 1543389038810,
                               "lastUpdated": 1543389038810,
                               "latestValidation": Object {
                                 "agencies": null,
@@ -807,6 +804,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                             "updaters": null,
                             "walkSpeed": null,
                           },
+                          "sharedStopsConfig": null,
                           "useCustomOsmBounds": false,
                           "user": null,
                         }
@@ -878,7 +876,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                       "id": "mock-feed-with-version-id",
                                       "isPublic": false,
                                       "labelIds": Array [],
-                                      "lastFetched": 1543389038810,
                                       "lastUpdated": 1543389038810,
                                       "latestValidation": Object {
                                         "agencies": null,
@@ -956,6 +953,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                 "otpVersion": null,
                                 "peliasCsvFiles": Array [],
                                 "peliasResetDb": null,
+                                "peliasSynonymsBase64": null,
                                 "peliasUpdate": null,
                                 "pinnedfeedVersionIds": Array [],
                                 "projectBounds": Object {
@@ -980,7 +978,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                 "id": "mock-feed-with-version-id",
                                 "isPublic": false,
                                 "labelIds": Array [],
-                                "lastFetched": 1543389038810,
                                 "lastUpdated": 1543389038810,
                                 "latestValidation": Object {
                                   "agencies": null,
@@ -1036,6 +1033,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                               "updaters": null,
                               "walkSpeed": null,
                             },
+                            "sharedStopsConfig": null,
                             "useCustomOsmBounds": false,
                             "user": null,
                           }
@@ -2931,7 +2929,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                           "id": "mock-feed-with-version-id",
                           "isPublic": false,
                           "labelIds": Array [],
-                          "lastFetched": 1543389038810,
                           "lastUpdated": 1543389038810,
                           "latestValidation": Object {
                             "agencies": null,
@@ -3006,7 +3003,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                     "id": "mock-feed-with-version-id",
                                     "isPublic": false,
                                     "labelIds": Array [],
-                                    "lastFetched": 1543389038810,
                                     "lastUpdated": 1543389038810,
                                     "latestValidation": Object {
                                       "agencies": null,
@@ -3084,6 +3080,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                               "otpVersion": null,
                               "peliasCsvFiles": Array [],
                               "peliasResetDb": null,
+                              "peliasSynonymsBase64": null,
                               "peliasUpdate": null,
                               "pinnedfeedVersionIds": Array [],
                               "projectBounds": Object {
@@ -3108,7 +3105,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                               "id": "mock-feed-with-version-id",
                               "isPublic": false,
                               "labelIds": Array [],
-                              "lastFetched": 1543389038810,
                               "lastUpdated": 1543389038810,
                               "latestValidation": Object {
                                 "agencies": null,
@@ -3164,6 +3160,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                             "updaters": null,
                             "walkSpeed": null,
                           },
+                          "sharedStopsConfig": null,
                           "useCustomOsmBounds": false,
                           "user": null,
                         }
@@ -3207,7 +3204,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                             "id": "mock-feed-with-version-id",
                             "isPublic": false,
                             "labelIds": Array [],
-                            "lastFetched": 1543389038810,
                             "lastUpdated": 1543389038810,
                             "latestValidation": Object {
                               "agencies": null,
@@ -3281,7 +3277,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                       "id": "mock-feed-with-version-id",
                                       "isPublic": false,
                                       "labelIds": Array [],
-                                      "lastFetched": 1543389038810,
                                       "lastUpdated": 1543389038810,
                                       "latestValidation": Object {
                                         "agencies": null,
@@ -3359,6 +3354,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                 "otpVersion": null,
                                 "peliasCsvFiles": Array [],
                                 "peliasResetDb": null,
+                                "peliasSynonymsBase64": null,
                                 "peliasUpdate": null,
                                 "pinnedfeedVersionIds": Array [],
                                 "projectBounds": Object {
@@ -3383,7 +3379,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                 "id": "mock-feed-with-version-id",
                                 "isPublic": false,
                                 "labelIds": Array [],
-                                "lastFetched": 1543389038810,
                                 "lastUpdated": 1543389038810,
                                 "latestValidation": Object {
                                   "agencies": null,
@@ -3439,6 +3434,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                               "updaters": null,
                               "walkSpeed": null,
                             },
+                            "sharedStopsConfig": null,
                             "useCustomOsmBounds": false,
                             "user": null,
                           }
@@ -3535,7 +3531,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                   "id": "mock-feed-with-version-id",
                                   "isPublic": false,
                                   "labelIds": Array [],
-                                  "lastFetched": 1543389038810,
                                   "lastUpdated": 1543389038810,
                                   "latestValidation": Object {
                                     "agencies": null,
@@ -3609,7 +3604,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                             "id": "mock-feed-with-version-id",
                                             "isPublic": false,
                                             "labelIds": Array [],
-                                            "lastFetched": 1543389038810,
                                             "lastUpdated": 1543389038810,
                                             "latestValidation": Object {
                                               "agencies": null,
@@ -3687,6 +3681,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                       "otpVersion": null,
                                       "peliasCsvFiles": Array [],
                                       "peliasResetDb": null,
+                                      "peliasSynonymsBase64": null,
                                       "peliasUpdate": null,
                                       "pinnedfeedVersionIds": Array [],
                                       "projectBounds": Object {
@@ -3711,7 +3706,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                       "id": "mock-feed-with-version-id",
                                       "isPublic": false,
                                       "labelIds": Array [],
-                                      "lastFetched": 1543389038810,
                                       "lastUpdated": 1543389038810,
                                       "latestValidation": Object {
                                         "agencies": null,
@@ -3767,6 +3761,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                     "updaters": null,
                                     "walkSpeed": null,
                                   },
+                                  "sharedStopsConfig": null,
                                   "useCustomOsmBounds": false,
                                   "user": null,
                                 }
@@ -3937,7 +3932,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                                 "id": "mock-feed-with-version-id",
                                                 "isPublic": false,
                                                 "labelIds": Array [],
-                                                "lastFetched": 1543389038810,
                                                 "lastUpdated": 1543389038810,
                                                 "latestValidation": Object {
                                                   "agencies": null,
@@ -4011,7 +4005,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                                           "id": "mock-feed-with-version-id",
                                                           "isPublic": false,
                                                           "labelIds": Array [],
-                                                          "lastFetched": 1543389038810,
                                                           "lastUpdated": 1543389038810,
                                                           "latestValidation": Object {
                                                             "agencies": null,
@@ -4089,6 +4082,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                                     "otpVersion": null,
                                                     "peliasCsvFiles": Array [],
                                                     "peliasResetDb": null,
+                                                    "peliasSynonymsBase64": null,
                                                     "peliasUpdate": null,
                                                     "pinnedfeedVersionIds": Array [],
                                                     "projectBounds": Object {
@@ -4113,7 +4107,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                                     "id": "mock-feed-with-version-id",
                                                     "isPublic": false,
                                                     "labelIds": Array [],
-                                                    "lastFetched": 1543389038810,
                                                     "lastUpdated": 1543389038810,
                                                     "latestValidation": Object {
                                                       "agencies": null,
@@ -4169,6 +4162,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                                   "updaters": null,
                                                   "walkSpeed": null,
                                                 },
+                                                "sharedStopsConfig": null,
                                                 "useCustomOsmBounds": false,
                                                 "user": null,
                                               }
@@ -4357,7 +4351,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                   "id": "mock-feed-with-version-id",
                                   "isPublic": false,
                                   "labelIds": Array [],
-                                  "lastFetched": 1543389038810,
                                   "lastUpdated": 1543389038810,
                                   "latestValidation": Object {
                                     "agencies": null,
@@ -4431,7 +4424,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                             "id": "mock-feed-with-version-id",
                                             "isPublic": false,
                                             "labelIds": Array [],
-                                            "lastFetched": 1543389038810,
                                             "lastUpdated": 1543389038810,
                                             "latestValidation": Object {
                                               "agencies": null,
@@ -4509,6 +4501,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                       "otpVersion": null,
                                       "peliasCsvFiles": Array [],
                                       "peliasResetDb": null,
+                                      "peliasSynonymsBase64": null,
                                       "peliasUpdate": null,
                                       "pinnedfeedVersionIds": Array [],
                                       "projectBounds": Object {
@@ -4533,7 +4526,6 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                       "id": "mock-feed-with-version-id",
                                       "isPublic": false,
                                       "labelIds": Array [],
-                                      "lastFetched": 1543389038810,
                                       "lastUpdated": 1543389038810,
                                       "latestValidation": Object {
                                         "agencies": null,
@@ -4589,6 +4581,7 @@ exports[`lib > manager > FeedSourceTable should render with a project with feeds
                                     "updaters": null,
                                     "walkSpeed": null,
                                   },
+                                  "sharedStopsConfig": null,
                                   "useCustomOsmBounds": false,
                                   "user": null,
                                 }
