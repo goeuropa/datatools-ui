@@ -1359,7 +1359,7 @@ components:
     mustBeValidNumber: Pole musi być prawidłową liczbą.
     nameAlreadyUsed: "%name% jest już używane w innym wyjątku."
     serviceRequired: Kalendarz musi mieć obsługę przynajmniej w jeden dzień.
-    stopNameRequired: Nazwa przystanku jest wymagana dla typów lokalizacji: przystanek, stacja, wejście.
+    stopNameRequired: Nazwa przystanku jest wymagana dla typów lokalizacji - przystanek, stacja, wejście.
     requiredFieldEmpty: Pole wymagane nie może być puste.
   VersionButtonToolbar:
     confirmDelete: Czy na pewno chcesz usunąć tę wersję? Tej operacji nie można cofnąć.
